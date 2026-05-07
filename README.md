@@ -1,4 +1,4 @@
-TypeScript Assignment
+📘 TypeScript Assignment
 
 This repository contains solutions and blog posts based on TypeScript concepts including functions, generics, type safety, and object-oriented programming.
 
@@ -51,8 +51,3 @@ Generics
 Interfaces
 OOP (Inheritance)
 Array Methods (filter, includes)
-✅ Submission Guidelines Followed
-Single file for all solutions
-Separate Markdown file for each blog
-Clean and readable code
-Exact output format maintained

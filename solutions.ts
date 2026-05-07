@@ -1,6 +1,5 @@
  // Problem 1
 
-
 const filterEvenNumbers  = (evenNum : number[]):number[]=>{
 if(evenNum.length === 0){
     return []
@@ -11,24 +10,14 @@ if(evenNum.length === 0){
 }
 
 
-
-
 // Problem 2
-
-
-
 
 const reverseString=(reverse:string):string=>{
     return reverse.split("").reverse().join('')
   
 }
 
-
-
-
-
 // Problem 3
-
 
 type StrOrNum = number |string
 
@@ -40,20 +29,14 @@ const checkType =(value:StrOrNum):StrOrNum=>{
     }
 }
 
-
-
-
 // Problem 4
-
 
 const getProperty = < T, k extends keyof T> (obj: T ,key:k)=>{
 return obj[key]
 }
 
 
-
 // Problem 5
-
 
 interface Book {
 title:string
@@ -68,13 +51,7 @@ const toggleReadStatus =(value:Book)=>{
 }
 
 
-
-
-
-
-// Problem 6:
-
-
+// Problem 6
 
 class Person {
     name:string
@@ -99,12 +76,11 @@ class Student extends Person{
 }
 
 
-
-
-
+// Problem 7:
 
 const getIntersection=(arr1:number[],arr2:number[]):number[]=>{
-    return arr1.filter((arr)=>arr2.includes(arr))
+    const result = arr1.filter((arr)=>arr2.includes(arr))
+    return result
 
 }
 

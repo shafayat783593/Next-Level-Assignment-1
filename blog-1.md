@@ -1,4 +1,7 @@
-Why any is Called a Type Safety Hole and Why unknown is Safer
+Why is any labeled a "type safety hole," and why is unknown the safer choice for handling unpredictable data? Explain the concept of type narrowing.
+
+
+
 
 TypeScript helps us write safe and predictable code. However, this safety can break if we use the wrong types. One of the most problematic types is any, which can completely disable TypeScript’s type system. In contrast, unknown is a much safer and more professional choice for handling unpredictable data.
 

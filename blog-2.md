@@ -1,4 +1,6 @@
-How Generics Enable Reusable and Strongly Typed Code in TypeScript
+How do Generics allow you to build reusable components and functions that stay strictly typed regardless of the data structures passed in?
+
+
 
 Generics in TypeScript act like a placeholder or variable for types. They work similarly to function parameters, but instead of passing values, we pass types. This allows us to write flexible and reusable code while maintaining strict type safety.
 

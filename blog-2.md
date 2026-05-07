@@ -1,4 +1,4 @@
-# How Generics Allow You to Build Reusable, Strictly Typed Components
+# How Generics Allow You to Build Reusable, Strictly Typed Components?
 
 How do Generics allow you to build reusable components and functions that stay strictly typed regardless of the data structures passed in?
 
@@ -19,7 +19,7 @@ Generics solve this problem by allowing **flexibility without losing type safety
 
 ---
 
-## How Generics Work
+## How Generics Work?
 
 We define a generic type using `<T>` (or any name) next to the function name. When the function is called, TypeScript automatically determines what type `T` should be.
 
@@ -46,4 +46,4 @@ const age  = getInfo<number>(26);
 
 
 
-> **In short:** Generics give you the flexibility of `any` with the safety of a strict type. They are one of the most powerful features in TypeScript for writing scalable, reusable code.
+> **In short:** Generics give you the flexibility of `any` with the safety of a strict type. They are one of the most powerful features in TypeScript for writing scalable, reusable code

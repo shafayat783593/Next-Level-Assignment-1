@@ -38,20 +38,12 @@ function getInfo<T>(item: T): T {
   return item;
 }
 
-const name = getInfo<string>("Shafayat"); // T = string
-const age  = getInfo<number>(26);         // T = number
+const name = getInfo<string>("Shafayat");
+const age  = getInfo<number>(26);        
 ```
 
 ---
 
-## Why Generics Are Powerful
 
-| Benefit | Explanation |
-|---|---|
-| **Reduce code duplication** | No need to write separate functions for `string`, `number`, etc. |
-| **Preserve type information** | If you pass a `string`, TypeScript knows the return value is also a `string` |
-| **Enable safer operations** | You can safely use methods like `.length` when the type is known — not possible with `any` |
-
----
 
 > **In short:** Generics give you the flexibility of `any` with the safety of a strict type. They are one of the most powerful features in TypeScript for writing scalable, reusable code.
